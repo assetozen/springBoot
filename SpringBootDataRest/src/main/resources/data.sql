@@ -1,0 +1,5 @@
+insert into ALIEN Values(101, 'Abebe', 'java')
+insert into ALIEN Values(102, 'Bekele', 'Android')
+insert into ALIEN Values(103, 'Debebe', 'Phyton')
+insert into ALIEN Values(104, 'Ephrem', 'java')
+insert into ALIEN Values(105, 'Abebe', 'Android')
