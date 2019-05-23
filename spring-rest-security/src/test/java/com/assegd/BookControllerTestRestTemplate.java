@@ -66,6 +66,7 @@ public class BookControllerTestRestTemplate {
     @Test
     public void find_nologin_401() throws Exception {
 
+
         String expected = "{\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Unauthorized\",\"path\":\"/books/1\"}";
 
         ResponseEntity<String> response = restTemplate.getForEntity("/books/1", String.class);
